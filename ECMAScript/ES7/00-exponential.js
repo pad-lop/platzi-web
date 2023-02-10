@@ -4,3 +4,5 @@ console.log(data);
 const list = ['oscar', 'david', 'anna'];
 console.log(list.includes('oscar'));
 console.log(list.includes('Oscar'));
+
+
