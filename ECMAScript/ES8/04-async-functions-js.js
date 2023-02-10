@@ -1,7 +1,7 @@
 const exampleAsyncFunction = () => {
     return new Promise((resolve, reject) => {
         (true)
-        ? setTimeout(() => resolve('Async Answer'), 2000)
+        ? setTimeout(() => resolve('OMG Async Answer :d'), 5000)
         : reject(new Error('Error!!!'))
     })  
 }
@@ -13,5 +13,5 @@ const answer = async() => {
 }
 
 console.log("Before call")
-receptor()
+answer()
 console.log("After call")
